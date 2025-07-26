@@ -106,7 +106,9 @@ footer {
   margin-right: 10px;
 }
 
-.body_container {
-  max-height: 180px;
+.body_container > tbody {
+  max-height: 200px; 
   overflow-y: auto;
+  overflow-x: hidden;
+  display: block;
 }
